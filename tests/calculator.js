@@ -35,7 +35,8 @@ describe('Calculation demo', function () {
           homePage.get('http://juliemr.github.io/protractor-demo/')
           homePage.enterFirstNumber('5');
           homePage.enterSecondNumber('5');
-          homePage.clickOngo1();
+          homePage.clickOngo();
           homePage.verifyResults('10');
+          browser.sleep(4000);
     })
 });
