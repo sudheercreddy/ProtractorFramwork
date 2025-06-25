@@ -36,7 +36,7 @@ describe('Calculation demo', function () {
           homePage.enterFirstNumber('5');
           homePage.enterSecondNumber('5');
           homePage.clickOngo();
-          homePage.verifyResults('11');
+          homePage.verifyResults('10');
           browser.sleep(4000);
     })
 });
